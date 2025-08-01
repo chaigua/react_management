@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { clearToken, request } from "@/utils";
+import { clearToken } from "@/utils";
 import {setToken as _setToken,getToken} from '@/utils'
 import { loginAPI,getProfileAPI } from "@/apis/user";
 
